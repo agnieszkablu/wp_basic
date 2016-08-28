@@ -1,0 +1,14 @@
+{
+	"customDirs": true,
+	"wpDir": "core",
+	"contentDir": "app",
+	"createLocalConfig": true,
+	"blockExternalRequests": false,
+	"vagrant": false,
+	"installTheme": true,
+	"themeDir": "sfp",
+	"themeType": "git",
+	"themeUser": "agnieszkablu",
+	"themeRepo": "sfp",
+	"themeBranch": "master"
+}

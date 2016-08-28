@@ -1,0 +1,21 @@
+{
+  "name": "sfp",
+  "description": "Custom wordpress theme build with love and lots of coffee. Based on _undersores and bootstrap, developed with Yoeman and Grunt",
+  "keywords": [
+   	"wordpress",
+	"bootstrap",
+	"starter theme"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "Font-Awesome#^4.5.0"
+  }
+}

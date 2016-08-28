@@ -1,0 +1,19 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: $p-font-sizes;
+	line-height: $font__line-height-body;
+	font-weight: 400;
+}
+.site-footer{	
+	color: $color__text-footer;	
+	font-family: $font__other;
+	text-align: center;
+	@include font-size($footer-font-sizes);
+	.site-info,.site-design{
+	}
+}
