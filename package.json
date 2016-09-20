@@ -33,7 +33,7 @@
     "grunt-contrib-uglify": "~0.7.0",
     "grunt-contrib-sass": "~0.7.4",
     "grunt-autoprefixer": "~2.2.0",
-    "grunt-postcss":"~2.2.0",
+    "grunt-postcss":"",
     "grunt-banner": "~0.3.1",
     "grunt-text-replace": "~0.4.0",
     "grunt-newer" : "~1.1.2",
