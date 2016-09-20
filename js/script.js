@@ -19,11 +19,17 @@ jQuery(function($) {
 			
 		}
 	
-	//============ All images add two Bootstrap Classes ===========
+	
+});
+
+//============ All images add two Bootstrap Classes ===========
 	
 	
 	$( '.site-content img' ).not( '.img-responsive ' ).addClass( 'img-responsive center-block' );
-});
+
+
+
+	
 } )( jQuery );
 
 
