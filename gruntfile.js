@@ -29,6 +29,9 @@ module.exports = function( grunt ) {
 			stylesheets: [
 				'style.css'
 			],
+			pot: [
+				'languages/<%= pkg.textdomain %>.pot'
+			]
 		},
 		imagemin : {
 			dynamic : {
@@ -46,6 +49,9 @@ module.exports = function( grunt ) {
 			},
 			dist: {
 				src: [
+				
+					'skip-link-focus-fix.js',
+					'customizer.js',
 					'js/script.js'					
 				],
 				dest: 'dist/js/script.js'
@@ -65,9 +71,6 @@ module.exports = function( grunt ) {
 
 		sass : {
 			dist : {
-				options : {
-					style : 'compressed' //no need for config.rb
-				},
 				files : {
 					'style.css' : 'sass/style.scss'
 				}
@@ -75,15 +78,15 @@ module.exports = function( grunt ) {
 		}, //end of sass
 		postcss: {
             options: {
-                map: true,
+                map: {inline: false, // save all sourcemaps as separate files...
+				},
                 processors: [
-                    require('autoprefixer')({
-                        browsers: ['last 2 versions']
-                    })
+                   require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+        		   require('cssnano')() // minify the result
                 ]
             },
             dist: {
-                src: '*.css'
+                src: 'style.css'
             }
         },
 		usebanner: {
@@ -173,8 +176,8 @@ module.exports = function( grunt ) {
 	grunt.loadNpmTasks( 'grunt-contrib-clean' );
 	grunt.loadNpmTasks( 'grunt-contrib-concat' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
-	grunt.loadNpmTasks('grunt-postcss');
 	grunt.loadNpmTasks( 'grunt-contrib-sass' );
+	grunt.loadNpmTasks('grunt-postcss');
 	grunt.loadNpmTasks( 'grunt-banner' );
 	grunt.loadNpmTasks( 'grunt-text-replace' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
@@ -191,7 +194,7 @@ module.exports = function( grunt ) {
 	grunt.registerTask( 'stylesheets', [
 		'clean:stylesheets',
 		'sass',
-		'postcss',
+		'postcss:dist',
 		'usebanner'
 	]);
 

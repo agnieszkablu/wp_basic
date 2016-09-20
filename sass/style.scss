@@ -1,13 +1,13 @@
 /*!
-Theme Name: sfp
-Theme URI: http://bludesign.pl/
-Author: Agnieszka Gorz
-Author URI: http://bludesign.pl/
-Description: Wordpress theme developed with love and lots of coffe by bludesign.pl
+Theme Name: Reichwein
+Theme URI: http://dh-creative-webdesign.de/
+Author: Daniel Hernandez
+Author URI: http://dh-creative-webdesign.de/
+Description: Wordpress theme developed by http://dh-creative-webdesign.de/
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: sfp
+Text Domain: reichwein
 Tags: custom-theme, responsive, two-columns, featured-images, custom-menu, custom-header
 
 */
@@ -55,33 +55,33 @@ Tags: custom-theme, responsive, two-columns, featured-images, custom-menu, custo
 @import "bootstrap/buttons";
 
 // Components
-@import "bootstrap/component-animations";
-@import "bootstrap/dropdowns";
-@import "bootstrap/button-groups";
-@import "bootstrap/input-groups";
-@import "bootstrap/navs";
-@import "bootstrap/navbar";
-@import "bootstrap/breadcrumbs";
-@import "bootstrap/pagination";
-@import "bootstrap/pager";
-@import "bootstrap/labels";
-@import "bootstrap/badges";
-@import "bootstrap/jumbotron";
-@import "bootstrap/thumbnails";
-@import "bootstrap/alerts";
-@import "bootstrap/progress-bars";
-@import "bootstrap/media";
-@import "bootstrap/list-group";
-@import "bootstrap/panels";
-@import "bootstrap/responsive-embed";
-@import "bootstrap/wells";
-@import "bootstrap/close";
+ @import "bootstrap/component-animations";
+ @import "bootstrap/dropdowns";
+ @import "bootstrap/button-groups";
+ @import "bootstrap/input-groups";
+ @import "bootstrap/navs";
+ @import "bootstrap/navbar";
+// @import "bootstrap/breadcrumbs";
+// @import "bootstrap/pagination";
+// @import "bootstrap/pager";
+// @import "bootstrap/labels";
+// @import "bootstrap/badges";
+// @import "bootstrap/jumbotron";
+ @import "bootstrap/thumbnails";
+// @import "bootstrap/alerts";
+// @import "bootstrap/progress-bars";
+ @import "bootstrap/media";
+// @import "bootstrap/list-group";
+// @import "bootstrap/panels";
+// @import "bootstrap/responsive-embed";
+// @import "bootstrap/wells";
+// @import "bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap/modals";
-@import "bootstrap/tooltip";
-@import "bootstrap/popovers";
-@import "bootstrap/carousel";
+// @import "bootstrap/modals";
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popovers";
+// @import "bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap/utilities";
@@ -111,17 +111,12 @@ Tags: custom-theme, responsive, two-columns, featured-images, custom-menu, custo
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-@import "site/secondary/widgets";
-
+//@import "site/secondary/widgets";
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 @import "site/site";
 
-/*--------------------------------------------------------------
-# Font awesome
---------------------------------------------------------------*/
-@import "../bower_components/font-awesome/scss/font-awesome";
 
 /*--------------------------------------------------------------
 # Custom

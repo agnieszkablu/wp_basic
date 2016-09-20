@@ -1,15 +1,15 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/* line 9, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 9, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-/* line 19, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 19, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 body {
   margin: 0; }
 
-/* line 45, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 45, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 article,
 aside,
 details,
@@ -25,7 +25,7 @@ section,
 summary {
   display: block; }
 
-/* line 57, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 57, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -33,53 +33,53 @@ video {
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 67, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 67, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 78, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 78, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 [hidden],
 template {
   display: none; }
 
-/* line 89, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 89, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 a {
   background-color: transparent; }
 
-/* line 99, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 99, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
 
-/* line 110, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 110, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 119, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 119, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
 
-/* line 127, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 127, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 dfn {
   font-style: italic; }
 
-/* line 136, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 136, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 145, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 145, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 154, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 154, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 small {
   font-size: 80%; }
 
-/* line 163, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 163, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -87,36 +87,36 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 170, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 170, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 174, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 174, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 185, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 185, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 img {
   border: 0; }
 
-/* line 193, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 193, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 204, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 204, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
-/* line 212, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 212, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
 
-/* line 221, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 221, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 pre {
   overflow: auto; }
 
-/* line 232, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 232, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 code,
 kbd,
 pre,
@@ -124,7 +124,7 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-/* line 256, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 256, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button,
 input,
 optgroup,
@@ -134,83 +134,83 @@ textarea {
   font: inherit;
   margin: 0; }
 
-/* line 266, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 266, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button {
   overflow: visible; }
 
-/* line 278, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 278, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button,
 select {
   text-transform: none; }
 
-/* line 293, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 293, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button,
 html input[type="button"], input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 303, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 303, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/* line 312, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 312, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 322, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 322, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 input {
   line-height: normal; }
 
-/* line 335, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 335, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-/* line 347, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 347, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-/* line 356, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 356, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box; }
 
-/* line 368, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 368, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 376, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 376, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 387, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 387, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 legend {
   border: 0;
   padding: 0; }
 
-/* line 396, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 396, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 textarea {
   overflow: auto; }
 
-/* line 405, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 405, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
-/* line 416, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 416, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 422, D:/programy/Xampp/htdocs/PROJEKTY/wisio/wp-content/themes/wisio/sass/bootstrap/_normalize.scss */
+/* line 422, D:/programy/Xampp/htdocs/PROJEKTY/reichwein/wp-content/themes/reichwein/sass/bootstrap/_normalize.scss */
 td,
 th {
   padding: 0; }

@@ -17,31 +17,22 @@ $breakpoints: (
 );
 
 $p-font-sizes: (
-  null  : 10px,
-  smallest: 11px,
-  small : 12px,
+  null  : 9px,
+  smallest: 9px,
+  small : 9px,
   medium: 12px,
-  large : 11px,
-  larger: 14px,
-	main: 14px,
-	big: 14px
+  large : 12px,
+  larger: 13px,
+  main: 13px,
+  big: 13px
 );
+
 $h1-font-sizes: (
-  null  : 18px,
-  smallest: 18px,
+  null  : 22px,
+  smallest: 22px,
   small :24px,
-  medium: 24px,
-  large : 24px,
-  larger : 22px,
-  main: 22px,
-  big: 22px
-);
-$fc-font-sizes: (
-  null  : 24px,
-  smallest: 24px,
-  small :28px,
   medium: 28px,
-  large : 25px,
+  large : 28px,
   larger : 30px,
   main: 28px,
   big: 28px
@@ -50,49 +41,49 @@ $h2-font-sizes: (
   null  : 20px,
   smallest: 20px,
   small : 20px,
-  medium: 20px,
-  large : 20px,
-  larger : 25px,
-  main : 21px,
+  medium: 22px,
+  large : 22px,
+  larger : 22px,
+  main:22px,
   big: 24px
 );
 $h3-font-sizes: (
-  null  : 12px,
-  smallest: 12px,
-  small : 12px,
-  medium: 14px,
-  large : 15px,
-  larger : 15px,
-  main : 18px,
-  big: 18px
+  null  : 20px,
+  smallest: 20px,
+  small : 20px,
+  medium: 22px,
+  large : 22px,
+  larger : 22px,
+  main:22px,
+  big: 24px
 );
 $menu-font-sizes: (
   null  : 14px,
   smallest: 15px,
   small : 16px,
-  medium: 20px,
-  large : 10px,
-  larger: 14px,
-	main: 14px,
-	big: 14px
-);
-$menu-secondary-font-sizes: (
-   null  : 8px,
-  smallest: 8px,
-  small : 8px,
-  medium: 12px,
+  medium: 16px,
   large : 11px,
-  larger: 15px,
-	main: 15px,
-	big: 15px
+  larger: 14px,
+  main: 14px,
+  big: 15px
+);
+$menu-btn-font-sizes: (
+  null  : 16px,
+  smallest: 16px,
+  small : 18px,
+  medium: 20px,
+  large : 36px,
+  larger: 20px,
+  main: 20px,
+  big: 20px
 );
 $footer-font-sizes: (
   null  : 7px,
   smallest: 7px,
-  small : 9px,
+  small : 8px,
   medium: 10px,
   large : 10px,
   larger: 11px,
-	main: 11px,
-	big: 11px
+  main: 11px,
+  big: 11px
 );
