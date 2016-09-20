@@ -1,10 +1,10 @@
 <?php
 /**
- * Reichwein functions and definitions.
+ * sfp functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Reichwein
+ * @package sfp
  */
 /*
 	===========================
@@ -24,7 +24,7 @@
 
 
 
-if ( ! function_exists( 'Reichwein_setup' ) ) :
+if ( ! function_exists( 'sfp_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -32,14 +32,14 @@ if ( ! function_exists( 'Reichwein_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function Reichwein_setup() {
+function sfp_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Reichwein, use a find and replace
-	 * to change 'Reichwein' to the name of your theme in all the template files.
+	 * If you're building a theme based on sfp, use a find and replace
+	 * to change 'sfp' to the name of your theme in all the template files.
 	 */
-	load_theme_textdomain( 'Reichwein', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'sfp', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	//add_theme_support( 'automatic-feed-links' );
@@ -61,8 +61,8 @@ function Reichwein_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'Reichwein' ),
-		'second' => esc_html__( 'Second menu', 'Reichwein' )
+		'primary' => esc_html__( 'Primary', 'sfp' ),
+		'second' => esc_html__( 'Second menu', 'sfp' )
 	) );
 
 	/*
@@ -90,13 +90,13 @@ function Reichwein_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'Reichwein_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'sfp_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 }
 endif;
-add_action( 'after_setup_theme', 'Reichwein_setup' );
+add_action( 'after_setup_theme', 'sfp_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -105,17 +105,17 @@ add_action( 'after_setup_theme', 'Reichwein_setup' );
  *
  * @global int $content_width
  */
-function Reichwein_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'Reichwein_content_width', 640 );
+function sfp_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'sfp_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'Reichwein_content_width', 0 );
+add_action( 'after_setup_theme', 'sfp_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function Reichwein_widgets_init() {
+function sfp_widgets_init() {
 	register_sidebars(1, array(
 		'name'          => esc_html__( 'Sidebar 1' ),
 		'id'            => 'sidebar-1',
@@ -126,13 +126,13 @@ function Reichwein_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'Reichwein_widgets_init' );
+add_action( 'widgets_init', 'sfp_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
 
-function Reichwein_scripts() {
-	wp_enqueue_style( 'Reichwein-style', get_stylesheet_uri() );
+function sfp_scripts() {
+	wp_enqueue_style( 'sfp-style', get_stylesheet_uri() );
 	
 
 	wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js', array(), '1.0.0', true);
@@ -157,7 +157,7 @@ function Reichwein_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'Reichwein_scripts' );
+add_action( 'wp_enqueue_scripts', 'sfp_scripts' );
 
 /**
  * Function to find children of the page
