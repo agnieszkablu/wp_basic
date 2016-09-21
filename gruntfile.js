@@ -81,7 +81,7 @@ module.exports = function( grunt ) {
                 map: {inline: false, // save all sourcemaps as separate files...
 				},
                 processors: [
-                   require('autoprefixer')({browsers: 'last 2 versions'}), // add vendor prefixes
+                   require('autoprefixer')(), // add vendor prefixes
         		   require('cssnano')() // minify the result
                 ]
             },
